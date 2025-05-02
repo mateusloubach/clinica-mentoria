@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #031630;
+  color: #fff;
+}
+
+variables {
+  --primary-color: #031630 ;
+  --secondary-color: #018079;
+  --tertiary-color: #f0f0f0;
+  --font-family: 'Arial, sans-serif';
+}
+
+.cta {
+  background-color: #018079;
+  font-weight: bold;
+}
+.cta:hover {
+  background-color: #f0f0f0;
+  color: #031630;
+}
+
+
+.header {
+  background-color: #018079;
+  color: var(--primary-color);
+}
