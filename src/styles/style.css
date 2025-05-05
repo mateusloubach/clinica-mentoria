@@ -15,6 +15,14 @@ variables {
   --font-family: 'Arial, sans-serif';
 }
 
+.primary{
+  background-color: #031630;
+
+}
+.secondary {
+  background-color: #018079;
+
+}
 .cta {
   background-color: #018079;
   font-weight: bold;
